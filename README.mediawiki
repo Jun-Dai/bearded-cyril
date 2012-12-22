@@ -1,0 +1,4 @@
+Tech stack (so far):
+
+* Sinatra
+* Thin
