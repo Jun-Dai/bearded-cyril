@@ -1,4 +1,14 @@
-Tech stack (so far):
-
+== Tech stack (so far): ==
+* Bundler
 * Sinatra
+* Rack
 * Thin
+
+== Assumptions: ==
+* RVM is installed (and respects .rvmrc)
+* Ruby 1.9.3
+
+== Setup ==
+
+# Run <tt>bundle install --path=./vendor/ruby</tt> to get your gems installed
+# Run <tt>bundle exec rackup</tt> to start the server
