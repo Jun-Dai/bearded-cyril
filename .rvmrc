@@ -1,0 +1,3 @@
+rvm use --create 1.9.3@tabl
+
+if `bundle --version > /dev/null 2>&1`; then echo "bundler is installed"; else gem install bundler; fi
